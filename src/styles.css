@@ -1,0 +1,46 @@
+h2 {
+  margin-top: 80px;
+  margin-left: 20px;
+  line-height: 42px;
+  padding: 10px auto;
+}
+h3 {
+  margin: 10px 0 60px 20px;
+  padding: 0 auto;
+  font-size: 24px;
+}
+.container {
+  margin: 100px;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+}
+.vl {
+  border-left: 6px solid #000;
+  height: 600px;
+}
+.weather-today,
+.sunday,
+.monday,
+.tuesday,
+.wednesday,
+.thursday {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
+}
+.icons {
+  display: grid;
+}
+.sun {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: #4f6e72;
+  font-size: 100px;
+}
+.weather-today {
+  margin: 10px 0 60px 20px;
+}
+.today {
+  margin-right: 0px;
+}
