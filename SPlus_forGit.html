@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>SheCodes Plus</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form id="city-search">
+            <input
+              type="text"
+              placeholder="Search for a city..."
+              autocomplete="off"
+              autofocus="on"
+              id="search-text-input"
+            />
+            <input id="search" type="submit" value="Search" />
+          </form>
+          <div class="row">
+            <div class="col-5 today">
+              <h2 id="city">Gaithersburg, MD</h2>
+              <h3 id="dateTime">Sunday, January 22 10:30 AM</h3>
+              <img src="media/partly_cloudy.png" alt="todayPartlyCloudy" />
+              <h3 id="temperature-description">Partly Cloudy</h3>
+              <ul class="weather-today">
+                <li>
+                  <span class="temperature" id="current-temp"
+                    >Current: 39 °C</span
+                  >
+                </li>
+                <li>
+                  <span class="temperature" id="humidity">Humidity: 20% </span>
+                </li>
+                <li>
+                  <span class="temperature" id="wind">Wind: 5 mph </span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-1">
+              <div class="vl"></div>
+            </div>
+            <div class="col-3 icons">
+              <img src="media/rain.png" alt="todayPartlyCloudy" />
+              <img src="media/partly_cloudy.png" alt="todayPartlyCloudy" />
+              <img src="media/partly_cloudy.png" alt="todayPartlyCloudy" />
+              <img src="media/partly_cloudy.png" alt="todayPartlyCloudy" />
+              <img src="media/partly_cloudy.png" alt="todayPartlyCloudy" />
+            </div>
+            <div class="col-3 week">
+              <ul class="sunday">
+                <li>Sunday</li>
+                <li>Low: 35°F</li>
+                <li>High: 44°F</li>
+                <li>Precipitation: 60%</li>
+              </ul>
+              <ul class="monday">
+                <li>Monday</li>
+                <li>Low: 30°F</li>
+                <li>High: 47°F</li>
+                <li>Precipitation: 10%</li>
+              </ul>
+              <ul class="tuesday">
+                <li>Tuesday</li>
+                <li>Low: 30°F</li>
+                <li>High: 49°F</li>
+                <li>Precipitation: 10%</li>
+              </ul>
+              <ul class="wednesday">
+                <li>Wednesday</li>
+                <li>Low: 32°F</li>
+                <li>High: 50°F</li>
+                <li>Precipitation: 10%</li>
+              </ul>
+              <ul class="thursday">
+                <li>Thursday</li>
+                <li>Low: 41°F</li>
+                <li>High: 53°F</li>
+                <li>Precipitation: 10%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2372937011.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/app.js"></script>
+  </body>
+</html>
